@@ -549,6 +549,8 @@ const uploadImage = async(req,res)=>{
   
     const { originalname, buffer } = req.file;
     const {fieldName} = req.params
+
+    console.log("1234567890");
   
     const uniqueKey = (await generateRandomString(16)) + originalname;
 

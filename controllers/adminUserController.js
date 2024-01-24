@@ -5,8 +5,6 @@ const { customRandom } = require('nanoid');
 const seedrandom = require('seedrandom');
 
 
-
-
 const createUser = async (req, res) => {
   try {
     const { name } = req.body;
